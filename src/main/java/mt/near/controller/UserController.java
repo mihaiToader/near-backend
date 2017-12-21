@@ -38,5 +38,4 @@ public class UserController {
         LOGGER.info("Consumer " + user.getUsername() + " registers now ...");
         userService.saveUser(user);
     }
-
 }
